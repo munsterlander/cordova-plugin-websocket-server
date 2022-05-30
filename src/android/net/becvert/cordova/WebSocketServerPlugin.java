@@ -156,7 +156,7 @@ public class WebSocketServerPlugin extends CordovaPlugin {
                         newServer.setTcpNoDelay(tcpNoDelay);
                     }
                     
-                    newserver.setReuseAddr(true);
+                    newServer.setReuseAddr(true);
 
                     try {
                         newServer.start();
